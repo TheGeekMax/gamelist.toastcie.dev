@@ -1,0 +1,17 @@
+replicaCount: 1
+
+fullname: gamelist
+
+image:
+  repository: wikimax/gamelist
+  tag: latest
+  pullPolicy: Always
+
+service:
+  port: 80
+  targetPort: 3000
+
+ingress:
+  enabled: true
+  className: nginx
+  host: gamelist.toastcie.dev
