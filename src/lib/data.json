@@ -1,0 +1,46 @@
+{
+    "games": [
+        {
+            "name": "Minecraft",
+            "subname": "Reclamation Modpack"
+        },
+        {
+            "name": "Borderlands",
+            "subname": "1er"
+        },
+        {
+            "name": "Terraria",
+            "subname": "Thorium Modpack"
+        },
+        {
+            "name": "Minecraft",
+            "subname": "Minimodpack v 666"
+        },
+        {
+            "name": "oddsparks/Stardew valley",
+            "subname": "",
+            "description": "A voir/choisir"
+        },
+        {
+            "name": "Factorio moddée",
+            "subname": "DLC + Mod = nolife"
+        },
+        {
+            "name": "Borderlands",
+            "subname": "Presequel"
+        },
+        {
+            "name": "Minecraft",
+            "subname": "Modpack avec GregTech",
+            "description": "Star technologie ?"
+        },
+        {
+            "name": "Borderlands",
+            "subname": "2"
+        },
+        {
+            "name": "Borderlands",
+            "subname": "3"
+        }
+    ]
+}
