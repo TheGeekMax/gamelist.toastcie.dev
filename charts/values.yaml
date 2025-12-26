@@ -2,7 +2,6 @@ replicaCount: 1
 
 fullname: gamelist
 
-
 image:
   repository: wikimax/gamelist
   tag: latest
