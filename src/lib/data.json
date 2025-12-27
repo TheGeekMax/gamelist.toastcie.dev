@@ -1,8 +1,25 @@
 {
+    "gameType": [
+        {
+            "name":"Clasic",
+            "icon":"check",
+            "color": "success"
+        },
+        {
+            "name":"Jeu d'un soir (plan jeu)",
+            "icon":"moon",
+            "color": "primary"
+        }
+    ],
     "games": [
         {
             "name": "Minecraft",
             "subname": "Reclamation Modpack"
+        },
+        {
+            "name": "Bus Simulator",
+            "subname": "je sais pas",
+            "gameType": 1
         },
         {
             "name": "Borderlands",
@@ -11,6 +28,11 @@
         {
             "name": "Terraria",
             "subname": "Thorium Modpack"
+        },
+        {
+            "name": "Minecraft",
+            "subname": "Wyncraft",
+            "gameType": 1
         },
         {
             "name": "Minecraft",

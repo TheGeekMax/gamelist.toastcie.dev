@@ -1,20 +1,21 @@
 <script lang="ts">
-    import { games } from '$lib/data.json';
+    import Game from '$lib/components/game.svelte';
+    import type { GameData } from '$lib/types'; 
+    import data from '$lib/data.json';
 
-
+    const { games } = data as GameData;
 </script>
 
 
-<h1>Liste des jeux</h1>
+<h1 class="text-6xl font-bold text-center my-12 text-primary">Liste des jeux</h1>
 
 <ul>
 {#each games as game}
-    <div class="game">
-        <h2>{game.name} <span> {game.subname} </span></h2>
-        {#if game.description}
-            <p> {game.description} </p>
-        {/if}
-    </div>
+    <Game
+        {...game}
+        description={game.description ?? undefined}
+        gameType={game.gameType ?? undefined}
+    />
 {/each}
 </ul>
 
@@ -23,25 +24,13 @@
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
+        background-color: var(--bg-main);
+        color: var(--text-main);
     }
 
-    .game {
-        margin-bottom: 2rem;
-        margin-left: 1rem;
+    ul {
+        list-style: none;
+        padding: 0;
     }
 
-    h2 {
-        font-size: 1.5rem;
-        margin-bottom: 0.5rem;
-    }
-
-    h2 span {
-        font-size: 1rem;
-        color: gray;
-    }
-
-    p {
-        font-size: 1rem;
-        line-height: 1.5;
-    }
 </style>
