@@ -3,6 +3,7 @@ export interface Game {
     subname: string;
     description?: string;
     gameType?: number;
+    done?: boolean;
 }
 
 export interface SingleType {

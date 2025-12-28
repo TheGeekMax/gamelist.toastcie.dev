@@ -14,7 +14,8 @@
     "games": [
         {
             "name": "Minecraft",
-            "subname": "Reclamation Modpack"
+            "subname": "Reclamation Modpack",
+            "done": true
         },
         {
             "name": "Bus Simulator",
