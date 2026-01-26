@@ -4,6 +4,7 @@ export interface Game {
     description?: string;
     gameType?: number;
     done?: boolean;
+    datasuplement?: string;
 }
 
 export interface SingleType {

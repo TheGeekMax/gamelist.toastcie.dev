@@ -3,6 +3,7 @@
     export let subname: string;
     export let description: string | undefined;
     export let gameType: number | undefined;
+    export let datasuplement: string | undefined;
 
     import Tag from '$lib/components/singleType.svelte';
 
@@ -21,6 +22,9 @@
             <Tag gameType={gt[gameType]} />
         {:else}
             <Tag gameType={gt[0]} />
+        {/if}
+        {#if datasuplement}
+            <p class="mt-4 whitespace-pre-line">{datasuplement}</p>
         {/if}
     </div>
 </div>
