@@ -28,7 +28,18 @@
         },
         {
             "name": "Terraria",
-            "subname": "Thorium Modpack"
+            "subname": "Thorium Modpack",
+            "done":true,
+            "datasuplement":"WikiMax:Bard/Melee\nGugu5021:Mage"
+        },
+        {
+            "name": "Terraria",
+            "subname": "Calamity Modpack",
+            "datasuplement":"WikiMax:Melee\nGugu5021:Ranger"
+        },
+        {
+            "name": "Terraria",
+            "subname": "1.4.5 update"
         },
         {
             "name": "Minecraft",
